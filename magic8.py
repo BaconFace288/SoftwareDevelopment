@@ -27,4 +27,6 @@ elif random_number == 10:
 else:
   answer = ("Error")
 print(name + " asks: " + question)
+
 print("Magic 8-ball's answer: " + answer)
+#Extra comment of Github Assignment
