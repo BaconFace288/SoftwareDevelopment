@@ -3,7 +3,7 @@ weight = float(input("Enter your weight in pounds: "))
 planet = input("Enter which planet you wish to fight on: ")
 
 if planet == "Earth":
-    weight = weight * 1 
+    weight # Removed the unnecesary multiplyer for calculation Earth's weight
 elif planet == "Mercury":
     weight = weight * 0.90
 elif planet == "Venus":
@@ -22,5 +22,6 @@ elif planet == "Pluto":
     weight = weight * 0.063
 else:
     print("Invalid planet name. Error.")
+
 
 print(f"Your weight on {planet} is {weight} pounds.")
